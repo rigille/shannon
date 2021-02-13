@@ -1,0 +1,2 @@
+# shannon
+it deletes itself
