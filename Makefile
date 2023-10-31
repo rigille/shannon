@@ -1,3 +1,4 @@
-shannon: shannon.c shannon.go
+shannon: shannon.c shannon.rs
 	gcc shannon.c -o shannon
-	go build -o shannon-go shannon.go
+	rustc shannon.rs -o shannon-rs
+  go build -o shannon-go shannon.go
